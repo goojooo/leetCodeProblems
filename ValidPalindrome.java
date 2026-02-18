@@ -13,8 +13,6 @@ public class ValidPalindrome {
             while (start < end && !Character.isLetterOrDigit(s.charAt(end))) {
                 end--;
             }
-            // char startChar = s.charAt(start);
-            // char endChar = s.charAt(end);
             if (Character.toLowerCase(s.charAt(start)) != Character.toLowerCase(s.charAt(end))) {
                 System.out.println("Its not palindrome");
             }
